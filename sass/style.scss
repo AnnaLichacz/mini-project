@@ -6,7 +6,7 @@ body {
 /* Navigation */
 
 .navigation {
-  background:url("https://i.postimg.cc/MZQcc1Bd/1.jpg");
+  background:url("https://i.postimg.cc/CxtvbWYv/pexels-ricardo-esquivel-1683490.jpg");
   padding: 20px 20px;
   height: 100%;
   max-width: 100%;
@@ -35,8 +35,13 @@ body {
   text-align: center;
   padding: 70px;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 }      
+
+.text h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
 
 .btn { 
   background: gold;
@@ -57,7 +62,7 @@ body {
 
 .section-title {
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   padding-top: 50px;
 }
 
@@ -91,7 +96,7 @@ body {
 
 .icon-border i {
   font-size: 30px;
-  line-height: 70px;
+  line-height: 50px;
   margin: auto;
   color: gold;
 }
@@ -101,23 +106,17 @@ body {
 .portfolio {
   background-color: lightgrey;
   padding-bottom: 100px;
+  padding: 80px;
+  text-align:center;
+}
+
+.portfolio-text {
+  padding-bottom: 80px;
 }
 
 .wrapper .img-wrapper img {
-  width: 50%;
+  width: 100%;
   height: 300px;
-  object-fit: cover;
-}
-
-.wrapper img {
-  width: 50%;
-  height: 300px;
-  object-fit: cover;
-}
-
-.wrapper {
-  width: 50%;
-  height: 50%;
   object-fit: cover;
 }
 
@@ -139,8 +138,8 @@ body {
   border-radius: 50%;
   background: black;
   color: white;
-  height: 42px;
-  width: 42px;
+  height: 60px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
